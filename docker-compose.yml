@@ -1,0 +1,22 @@
+version: "3.0"
+services:
+  
+  pm_mongodb:
+    image: mongo
+    restart: always
+    ports:
+      - "27017:27018"
+    volumes:
+         - pm-data:/data/db
+  productionmanager:
+    build: ProductionManager
+    ports:
+      - "3042:3042"
+
+volumes:
+  pm-data:
+
+networks:
+  default:
+    external:
+      name: iuno-network
