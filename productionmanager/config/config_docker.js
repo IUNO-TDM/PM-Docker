@@ -2,6 +2,7 @@
  * Created by beuttlerma on 18.04.17.
  */
 
+const path =  require('path');
 
 var self = {};
 
@@ -29,6 +30,9 @@ self.MONGODB = {
     PORT: 27017,
     DATABASE: 'iuno_production_manager'
 };
+
+self.TMP_DIR = path.resolve(__dirname, '../tmp');
+self.FILE_DIR = path.resolve(__dirname, '../files');
 
 
 module.exports = self;
