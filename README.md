@@ -1,12 +1,14 @@
 # PM Docker
 
+Just run pull_build_up.sh
+
+
 # Docker Build Status
 
 
 | Repository        | Status|
 | ------------- |:-------------:|
 | [iuno/tdm-pm](https://hub.docker.com/r/iuno/tdm-pm/builds/) | ![](https://img.shields.io/docker/build/iuno/tdm-pm.svg)|
-
 
 
 # Development Example
