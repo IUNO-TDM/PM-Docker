@@ -1,4 +1,4 @@
-FROM productionmanager
+FROM iuno/tdm-pm:master
 
 COPY config/ /usr/src/app/config/
 
